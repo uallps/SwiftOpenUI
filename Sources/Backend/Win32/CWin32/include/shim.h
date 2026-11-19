@@ -12,6 +12,11 @@
 #define WIN32_LEAN_AND_MEAN
 #define NOMINMAX
 
+#define WINVER 0x0A00
+#define _WIN32_WINNT 0x0A00
+#include <windef.h>
+#include <winbase.h>
+#include <winuser.h>
 #include <windows.h>
 #include <commctrl.h>
 #include <windowsx.h>
